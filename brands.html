@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- Meta -->
+		<meta charset='UTF-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta content='yes' name='apple-touch-fullscreen' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='mssmarttagspreventparsing' content='true'>
+		<meta name='yandex-verification' content='38ffc5af88a5d596'>
+		<meta name='google-site-verification' content='8porN1DgQJZZs7RTNJO_O0OTJG6d3swz6xW0bXPfXVc'>
+		<meta name='robots' content='index, follow'>
+		<meta name='author' content='Oliynyk Artem'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk!">
+		<meta name="keywords" content="">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel='apple-touch-icon' sizes='180x180' href='img/favicon/apple-touch-icon.png'>
+		<link rel='icon' type='image/png' sizes='32x32' href='img/favicon/favicon-32x32.png'>
+		<link rel='icon' type='image/png' sizes='16x16' href='img/favicon/favicon-16x16.png'>
+		<!-- CSS --> 
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Title -->
+		<title>Home</title>
+	</head>
+
+<body>
+	<header>
+		<nav class="nav">
+  <div class="nav__header">
+    <div class="container">
+      <div class="nav__modal">
+        <a href="#" class="nav__link subtext modal__btn" id="modalBtn1"><img src="img/location.svg" alt="">Москва</a>
+      </div>
+      <div class="nav__header-items">
+        <a href="#" class="nav__link subtext">Бренды</a>
+        <a href="#" class="nav__link subtext">Доставка</a>
+        <a href="#" class="nav__link subtext">Возврат</a>
+        <a href="#" class="nav__link subtext">Документация</a>
+        <a href="#" class="nav__link subtext">Контакты</a>
+      </div>
+    </div>
+  </div>
+  <div class="nav__body">
+    <div class="container">
+      <a href="#" class="nav__logo"><img src="img/logo.svg" alt=""></a>
+      <div class="nav__body-content">
+        <a href="#" class="nav__btn btn burger text"><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 18L14.5 18" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M4.5 12L20.5 12" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M4.5 6L10.5 6" stroke="#2F323A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Каталог</a>
+        <form class="nav__form">
+          <input type="text" class="nav__form-input text" placeholder="Поиск">
+          <button type="submit" class="nav__form-btn"><img src="img/search.svg" alt=""></button>
+        </form>
+        <div class="nav__menu">
+          <a href="#" class="nav__menu-item subtext nav__link modal__btn" id="modalBtn2">
+            <img src="img/profile.svg" alt="">Профиль
+          </a>
+          <a href="#" class="nav__menu-item subtext nav__link">
+            <img src="img/orders.svg" alt="">Заказы
+          </a>
+          <a href="#" class="nav__menu-item subtext nav__link">
+            <img src="img/cart.svg" alt="">Корзина
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav__footer">
+    <div class="container">
+      <a href="#" class="nav__link subtext">Акции</a>
+      <a href="#" class="nav__link subtext">Строительные материалы</a>
+      <a href="#" class="nav__link subtext">Керамическая плитка</a>
+      <a href="#" class="nav__link subtext">Краски</a>
+      <a href="#" class="nav__link subtext">Сантехника</a>
+      <a href="#" class="nav__link subtext">Напольные покрытия</a>
+      <a href="#" class="nav__link subtext">Инструменты</a>
+      <a href="#" class="nav__link subtext">Обои</a>
+      <a href="#" class="nav__link subtext">Окна</a>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal1">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h1 class="modal__title title-big">Выберите ваш город</h1>
+      <form class="nav__form">
+        <input type="text" class="nav__form-input" placeholder="Поиск">
+        <button type="submit" class="nav__form-btn"><img src="img/search.svg" alt=""></button>
+      </form>
+      <div class="modal__menu">
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Москва</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Екатеринбург</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Челябинск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Уфа</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Воронеж</a></li>
+        </ul>
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#"
+              class="modal__list-item text-big bold">Санкт-Петербург</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Казань</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Самара</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Омск</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Пермь</a></li>
+        </ul>
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Новосибирск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Нижний
+              Новгород</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#"
+              class="modal__list-item text-big bold">Ростов-на-Дону</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Красноярск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Волгоград</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal2">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h2 class="modal__title title-big">Вход</h2>
+      <form action="#" class="cabinet__form">
+        <div class="cabinet__form-item">
+          <label class="cabinet__form-label text-big bold">E-mail</label>
+          <input type="email" class="cabinet__form-input text-big bold" placeholder="youmail@mail.com">
+        </div>
+        <div class="cabinet__form-item">
+          <label class="cabinet__form-label text-big bold">Пароль</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <a href="#" class="modal__text subtext">Забыли пароль?</a>
+        <button class="cabinet__form-btn btn text">Войти</button>
+        <a href="#" class="cabinet__form-btn btn btn-white text" id="modalBtn3">Создать учетную запись</a>
+      </form>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal3">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h2 class="modal__title title-big">Регистрация</h2>
+      <form action="#" class="cabinet__form">
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Имя</label>
+          <input type="text" class="cabinet__form-input text-big bold" placeholder="Богдан">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">E-mail</label>
+          <input type="email" class="cabinet__form-input text-big bold" placeholder="youmail@mail.com">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Новый пароль</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Подтверждение пароля</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <button class="cabinet__form-btn btn text">Зарегистрироваться</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      <section class="section section__hero section__hero-brands">
+   <div class="container">
+      <div class="hero">
+         <div class="breadcrupms">
+            <p class="breadcrupms__text text-big"><a href="index.html">Главная</a> → <a href="#">Все продавцы</a></p>
+         </div>
+         <h2 class="hero__title title">Все бренды</h2>
+      </div>
+   </div>
+</section>
+	</header>
+	<main class="main">
+      <section class="section section__kategory section__kategory-brands">
+   <div class="container">
+      <div class="kategory">
+         <div class="kategory__header header">
+            <h2 class="kategory__title title-big">Популярные бренды</h2>
+            <a href="#" class="kategory__btn text header__btn">Все бренды<svg width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 18L15 12L9 6" stroke="#454950" stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" />
+               </svg></a>
+         </div>
+         <div class="kategory__items">
+            <div class="kategory__item">
+               <img src="img/brands-img1.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img2.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img3.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img4.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img5.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img6.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img7.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img8.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img9.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img10.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img11.png" alt="">
+            </div>
+            <div class="kategory__item">
+               <img src="img/brands-img12.png" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__list">
+   <div class="container">
+      <div class="list">
+         <div class="list__header">
+            <div class="list__header-item text active">Все</div>
+            <div class="list__header-item text">A</div>
+            <div class="list__header-item text">B</div>
+            <div class="list__header-item text">C</div>
+            <div class="list__header-item text">D</div>
+            <div class="list__header-item text">E</div>
+            <div class="list__header-item text">F</div>
+            <div class="list__header-item text">G</div>
+            <div class="list__header-item text">H</div>
+            <div class="list__header-item text">I</div>
+            <div class="list__header-item text">J</div>
+            <div class="list__header-item text">K</div>
+            <div class="list__header-item text">L</div>
+            <div class="list__header-item text">M</div>
+            <div class="list__header-item text">N</div>
+            <div class="list__header-item text">O</div>
+            <div class="list__header-item text">P</div>
+            <div class="list__header-item text">Q</div>
+            <div class="list__header-item text">R</div>
+            <div class="list__header-item text">S</div>
+            <div class="list__header-item text">T</div>
+            <div class="list__header-item text">U</div>
+            <div class="list__header-item text">V</div>
+            <div class="list__header-item text">W</div>
+            <div class="list__header-item text">Z</div>
+            <div class="list__header-item text">А</div>
+            <div class="list__header-item text">Б</div>
+            <div class="list__header-item text">Г</div>
+            <div class="list__header-item text">Д</div>
+            <div class="list__header-item text">Е</div>
+            <div class="list__header-item text">Ж</div>
+            <div class="list__header-item text">З</div>
+            <div class="list__header-item text">И</div>
+            <div class="list__header-item text">К</div>
+            <div class="list__header-item text">Л</div>
+            <div class="list__header-item text">М</div>
+            <div class="list__header-item text">Н</div>
+            <div class="list__header-item text">О</div>
+            <div class="list__header-item text">П</div>
+            <div class="list__header-item text">Р</div>
+            <div class="list__header-item text">С</div>
+            <div class="list__header-item text">Т</div>
+            <div class="list__header-item text">У</div>
+            <div class="list__header-item text">Ф</div>
+            <div class="list__header-item text">Ш</div>
+            <div class="list__header-item text">Э</div>
+            <div class="list__header-item text">Я</div>
+         </div>
+         <div class="list__items">
+            <div class="list__item">
+               <h3 class="list__title title-big">A</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ASB-Woodline</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">AVS</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Alma Ceramica</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Alvaro-Banos</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Am.Pm</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Apecs</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Appetite</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Attribute</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Auto Standart</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Axima</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Azario</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">B</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">BLB</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">BOYSCOUT</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">BRAVAT</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Belani</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Belezza</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Belinka</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Blocker</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Bosch</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Bostik</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Braver</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Bussare</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">C</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Cemmix</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ceramica Konskie</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ceramica Konskie</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ceresit</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ceresit</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ceresit</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">D</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">DAP</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">DARIIS</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Damixa</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Deco Room</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Decoretto</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Docke</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Dora</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Dufa</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Dulux</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Duschy</a></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">E</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">EKF</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ESKO</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">EUROTEX</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Egger</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Element</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Elfe</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Elysium</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Energizer</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Energy</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Erismann</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Estima</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">F</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Fischer</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Fora</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">G</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">GP BATTERIES</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">GRANICOM</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">GSHOSE</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Gauss</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Gayafores</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Giaretti</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Gimi</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">GlobalTile</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Golden Tile</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Goldman</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Gracia Ceramica</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Grinda</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Grohe</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Gracia Ceramica</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Grinda</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Grohe</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">H</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">HARO</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">HEGEL</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">HELP</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">HENKEL</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Hammer</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Hobby</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Home Color</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Husky</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Huter</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">I</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">IEK</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">IKA</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">IVC</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ideal</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">J</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Jika</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">K</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">KLEO</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Karcher</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Kerama Marazzi</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Kiilto</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Kolner</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Komar</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Kraftool</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Krass</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Kronostar</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">L</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">LUX</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">LaFavola</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Lasselsberger</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Legrand</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Lemark</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Lemax</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Leonord</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">M</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">METALTEX</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">MONETA</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Makel</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Makita</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Mallony</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Marburg</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Marmiton</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Marshall</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Matrix</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Meiwa Gravure Co., Ltd</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Milardo</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Monopole</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Murol</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">N</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">NRAVA HOME</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Norta</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">O</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">OLFA</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">P</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">P&P</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">PALLADIUM</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">PROSEPT</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Palisad</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Park</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Pasabahce</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Phibo</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Plast team</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Polynor</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Power Cube</a></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Q</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Quick-Step</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">R</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Rasch</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Realistik</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Regent</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Rehau</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Roca</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Rossinka</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">S</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Safeline</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Salag</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Santool</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Schneider Electric</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Sheffilton</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Soudal</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Stayer</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Swensa</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">T</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">T4P</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">TRIUMPH NORD</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Tarkett</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Thermo</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Tokito</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Toplight</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">U</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">UNICUM</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">UNIVERSAL</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Unibob</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Unicorn</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">V</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">VIDIMA</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">VODA</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Vents</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Vernissage</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Vincent</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Vortex</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">W</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">WAGO</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Wester</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Z</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Zalger</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ziber</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">А</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">АНИ</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">АСБ-Мебель</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Авангард</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Аист</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Аквафор</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Альпа</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Алюмет</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Арей</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Артекс</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Астрохим</a></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Б</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Банные штучки</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Барьер</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Белвинил</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Брянские обои</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Бытпласт</a></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Г</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Гипрофи</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Д</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Двери.ру</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Дверной Континент</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Делга</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Дельфа</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Джоби</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ДорВуд</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Дэта</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Е</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Еврокерамика</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Едим Дома</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Ж</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Жук</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">З</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Зеленая Аптека Садовода</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Зенит</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Зубр</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">И</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Индустрия</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Итана</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">К</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Кедр</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Керамин</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Колор Эксперт</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Колорит</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Комарофф</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Контакт</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Континент</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Кукморский завод Металлопосуды</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Л</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лакра</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лесенка</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лесма</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лесозавод</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лесстройпроект</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Луга</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Лукойл</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">М</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Макрофлекс</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Н</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Нева Тафт</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Нрава</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Нэфис</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">О</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ОКСО</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Олимп</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ондулин</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Орио</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">П</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ПРОМЕТ</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Пинотекс</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Пластик Репаблик</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Пластмаркет</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Полимербыт</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Политэк</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Промрукав</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Профильдорс</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Профилюкс</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Р</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ресанта</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Рифар</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Рыжий кот</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">С</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">СИБИН</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">СТН</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Сантек</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Саратовские обои</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Сельмаш</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Сибртех</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">СоюзБалтКомплект</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Спарта</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ставр</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Стальэмаль</a></td>
+                  </tr>
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Старатели</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Строитель</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ступино</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Т</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ТДВ</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ТОРН</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Твоя Планета</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Технолайн</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Тритон</a></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">У</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Уют</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Ф</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Фаско</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Фертика</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Формат</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Фрекен Бок</a></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Ш</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Шахтинская плитка</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Штрих</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Э</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">ЭКО</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Эко НОМ</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Эксперт</a></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="list__item">
+               <h3 class="list__title title-big">Я</h3>
+               <table class="list__table">
+                  <tr>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Яр краски</a></td>
+                     <td><img src="img/hover-arrow.svg" alt=""><a href="#" class="list__text text-big bold">Ярославский антисептик</a></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+	</main>	
+	<footer>
+   <div class="container">
+      <div class="footer">
+         <div class="footer__body">
+            <div class="footer__info">
+               <a href="#" class="footer__logo"><img src="img/footer-logo.png" alt=""></a>
+               <div class="footer__info-item">
+                  <img src="img/mail.svg" alt="">
+                  <p class="footer__text text-big">info@stroykastore.ru</p>
+               </div>
+               <div class="footer__info-item">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M17.5 8.33333C17.5 14.1667 10 19.1667 10 19.1667C10 19.1667 2.5 14.1667 2.5 8.33333C2.5 6.34421 3.29018 4.43655 4.6967 3.03003C6.10322 1.62351 8.01088 0.833333 10 0.833333C11.9891 0.833333 13.8968 1.62351 15.3033 3.03003C16.7098 4.43655 17.5 6.34421 17.5 8.33333Z"
+                        stroke="#5D6066" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                     <path
+                        d="M10 10.8333C11.3807 10.8333 12.5 9.71405 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71405 8.61929 10.8333 10 10.8333Z"
+                        stroke="#5D6066" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <p class="footer__text text-big">Москва, ул. Камушкина 10</p>
+               </div>
+            </div>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <a href="#" class="footer__text text-big bold">Личный кабинет</a>
+               </li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Заказы</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Избранное</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Корзина</a></li>
+            </ul>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Каталог</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Акции</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Бренды</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Контакты</a>
+               </li>
+            </ul>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Стать
+                     продавцом</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Доставка</a>
+               </li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Возврат</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Документация</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__footer">
+            <p class="footer__text text-big bold">© СтройкаСтор</p>
+            <div class="footer__items">
+               <img src="img/visa.png" alt="">
+               <img src="img/mastercard.png" alt="">
+               <img src="img/mastercard.png" alt="">
+               <img src="img/mup.png" alt="">
+            </div>
+            <p class="footer__text text-big bold">Cделано в KRUGLOV STUDIO</p>
+         </div>
+      </div>
+   </div>
+</footer>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
