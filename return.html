@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- Meta -->
+		<meta charset='UTF-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta content='yes' name='apple-touch-fullscreen' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='mssmarttagspreventparsing' content='true'>
+		<meta name='yandex-verification' content='38ffc5af88a5d596'>
+		<meta name='google-site-verification' content='8porN1DgQJZZs7RTNJO_O0OTJG6d3swz6xW0bXPfXVc'>
+		<meta name='robots' content='index, follow'>
+		<meta name='author' content='Oliynyk Artem'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk! Page was made by Artem Oliynyk!">
+		<meta name="keywords" content="">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel='apple-touch-icon' sizes='180x180' href='img/favicon/apple-touch-icon.png'>
+		<link rel='icon' type='image/png' sizes='32x32' href='img/favicon/favicon-32x32.png'>
+		<link rel='icon' type='image/png' sizes='16x16' href='img/favicon/favicon-16x16.png'>
+		<!-- CSS --> 
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Title -->
+		<title>Home</title>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-55P8SDFWW4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-55P8SDFWW4');
+</script>
+	</head>
+
+<body>
+	<header>
+		<nav class="nav">
+  <div class="nav__header">
+    <div class="container">
+      <div class="nav__modal">
+        <a href="#" class="nav__link subtext modal__btn" id="modalBtn1"><img src="img/location.svg" alt="">Москва</a>
+      </div>
+      <div class="nav__header-items">
+        <a href="brands.html" class="nav__link subtext">Бренды</a>
+        <a href="deliver.html" class="nav__link subtext">Доставка</a>
+        <a href="return.html" class="nav__link subtext">Возврат</a>
+        <a href="documentation.html" class="nav__link subtext">Документация</a>
+        <a href="contact.html" class="nav__link subtext">Контакты</a>
+      </div>
+    </div>
+  </div>
+  <div class="nav__body">
+    <div class="container">
+      <a href="index.html" class="nav__logo"><img src="img/logo.svg" alt=""></a>
+      <div class="nav__body-content">
+        <a href="#" class="nav__btn btn burger text"><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 18L14.5 18" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M4.5 12L20.5 12" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M4.5 6L10.5 6" stroke="#2F323A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Каталог</a>
+        <form class="nav__form">
+          <input type="text" class="nav__form-input text" placeholder="Поиск">
+          <button type="submit" class="nav__form-btn"><img src="img/search.svg" alt=""></button>
+        </form>
+        <div class="nav__menu">
+          <a href="#" class="nav__menu-item subtext nav__link modal__btn" id="modalBtn2">
+            <img src="img/profile.svg" alt="">Профиль
+          </a>
+          <a href="orders.html" class="nav__menu-item subtext nav__link">
+            <img src="img/orders.svg" alt="">Заказы
+          </a>
+          <a href="cart.html" class="nav__menu-item subtext nav__link">
+            <img src="img/cart.svg" alt="">Корзина
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav__footer">
+    <div class="container">
+      <a href="#" class="nav__link subtext">Акции</a>
+      <a href="#" class="nav__link subtext">Строительные материалы</a>
+      <a href="#" class="nav__link subtext">Керамическая плитка</a>
+      <a href="#" class="nav__link subtext">Краски</a>
+      <a href="#" class="nav__link subtext">Сантехника</a>
+      <a href="#" class="nav__link subtext">Напольные покрытия</a>
+      <a href="#" class="nav__link subtext">Инструменты</a>
+      <a href="#" class="nav__link subtext">Обои</a>
+      <a href="#" class="nav__link subtext">Окна</a>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal1">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h1 class="modal__title title-big">Выберите ваш город</h1>
+      <form class="nav__form">
+        <input type="text" class="nav__form-input" placeholder="Поиск">
+        <button type="submit" class="nav__form-btn"><img src="img/search.svg" alt=""></button>
+      </form>
+      <div class="modal__menu">
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Москва</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Екатеринбург</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Челябинск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Уфа</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Воронеж</a></li>
+        </ul>
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#"
+              class="modal__list-item text-big bold">Санкт-Петербург</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Казань</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Самара</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Омск</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Пермь</a></li>
+        </ul>
+        <ul class="modal__list">
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Новосибирск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Нижний
+              Новгород</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#"
+              class="modal__list-item text-big bold">Ростов-на-Дону</a></li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Красноярск</a>
+          </li>
+          <li><img src="img/hover-arrow.svg" alt=""><a href="#" class="modal__list-item text-big bold">Волгоград</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal2">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h2 class="modal__title title-big">Вход</h2>
+      <form action="#" class="cabinet__form">
+        <div class="cabinet__form-item">
+          <label class="cabinet__form-label text-big bold">E-mail</label>
+          <input type="email" class="cabinet__form-input text-big bold" placeholder="youmail@mail.com">
+        </div>
+        <div class="cabinet__form-item">
+          <label class="cabinet__form-label text-big bold">Пароль</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <a href="#" class="modal__text subtext">Забыли пароль?</a>
+        <button class="cabinet__form-btn btn text">Войти</button>
+        <a href="#" class="cabinet__form-btn btn btn-white text" id="modalBtn3">Создать учетную запись</a>
+      </form>
+    </div>
+  </div>
+  <div class="modal__wrapper" id="modal3">
+    <span class="modal__close"></span>
+    <div class="modal">
+      <h2 class="modal__title title-big">Регистрация</h2>
+      <form action="#" class="cabinet__form">
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Имя</label>
+          <input type="text" class="cabinet__form-input text-big bold" placeholder="Богдан">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">E-mail</label>
+          <input type="email" class="cabinet__form-input text-big bold" placeholder="youmail@mail.com">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Новый пароль</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <div class="cabinet__form-item half">
+          <label class="cabinet__form-label text-big bold">Подтверждение пароля</label>
+          <input type="password" class="cabinet__form-input text-big bold" placeholder="****************">
+        </div>
+        <a href="cabinet.html" class="cabinet__form-btn btn text">Зарегистрироваться</a>
+      </form>
+    </div>
+  </div>
+</nav>
+      <section class="section section__hero section__hero-return">
+   <div class="container">
+      <div class="hero">
+         <div class="breadcrupms">
+            <p class="breadcrupms__text text-big"><a href="index.html">Главная</a> → <a href="#">Возврат</a></p>
+         </div>
+         <h2 class="hero__title title">Возврат</h2>
+         <p class="hero__text subtitle-big">Ошиблись при выборе товара? Передумали? Ничего страшного! СтройкаСтор в течение 7 дней готова принять обратно или обменять Ваш товар</p>
+      </div>
+   </div>
+</section>
+	</header>
+	<main class="main">
+		<section class="section section__return">
+   <div class="container">
+      <div class="return">
+         <div class="return__item">
+            <h2 class="return__title title-big">Возврат товара ненадлежащего качества</h2>
+            <div class="return__item-content">
+               <p class="return__text text-big bold">В случае, если вы обнаружили недостаток у товара, сообщите об этом
+                  менеджеру магазина, в котором вы оформляли заказ в срок до 20 дней после дня получения заказа.</p>
+               <p class="return__text text-big bold">Если вы обнаружили, что с товаром что-то не так:</p>
+               <p class="return__text text-big bold">Если вы решили отказаться от товара при его получении, сообщите
+                  водителю о том, что вы обнаружили проблему у товара. Вам будет предложено заполнить необходимые
+                  документы (в т.ч. акт возврата), после чего товар будет возвращен в магазин.</p>
+               <p class="return__text text-big bold"> Пожалуйста, имейте в виду, что при возврате товаров магазину может
+                  потребоваться проведение экспертизы.</p>
+            </div>
+         </div>
+         <div class="return__item">
+            <h2 class="return__title title-big">Возврат денежных средств</h2>
+            <div class="return__item-content">
+               <p class="return__text text-big bold">После возврата товара в магазин СтройкаСтор и, при необходимости,
+                  проведения экспертизы, вам будут возвращены денежные средства в размере стоимости приобретенного
+                  товара. В случае возврата оплаты за товар надлежащего качества cтоимость оплаченной доставки или
+                  оказанных дополнительных услуг не возвращается. Если проведение экспертизы возвращаемого товара не
+                  требуется, операция по возврату денежных средств будет произведена в течение следующего рабочего дня
+                  по графику работы магазина. Пожалуйста, имейте ввиду, что поступление возвращенных средств на вашу
+                  карту зависит от сроков возврата, установленных банком вашей пластиковой карты.</p>
+            </div>
+         </div>
+         <div class="return__item">
+            <h2 class="return__title title-big">Обмен</h2>
+            <div class="return__item-content">
+               <p class="return__text text-big bold">Вы можете обменять товар из своего заказа на другой, более
+                  подходящий для вас, как в процессе обработки вашего заказа, так и после получения вами вашего заказа,
+                  за исключением товаров, которые не подлежат возврату и обмену по законодательству РФ.</p>
+               <p class="return__text text-big bold">До сборки (и отправки в службу доставки) вашего заказа обмен
+                  товаров возможен путем корректировки заказа менеджером магазина по согласованию с вами.
+                  После получения своего заказа вы также можете произвести обмен приобретенного вами товара, за
+                  исключением товаров, которые не подлежат возврату и обмену по законодательству РФ.
+                  В случае обмена товара надлежащего качества стоимость оплаченной доставки или оказанных дополнительных
+                  услуг не возвращается.</p>
+               <p class="return__text text-big bold">Возврат товара для его обмена производится согласно правилам
+                  возврата товара надлежащего или ненадлежащего качества, описанных выше.</p>
+               <p class="return__text text-big bold">Пожалуйста, имейте ввиду, что при обмене/возврате товаров магазину
+                  может потребоваться проведение экспертизы.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+	</main>	
+	<footer>
+   <div class="container">
+      <div class="footer">
+         <div class="footer__body">
+            <div class="footer__info">
+               <a href="index.html" class="footer__logo"><img src="img/footer-logo.png" alt=""></a>
+               <div class="footer__info-item">
+                  <img src="img/mail.svg" alt="">
+                  <p class="footer__text text-big">info@stroykastore.ru</p>
+               </div>
+               <div class="footer__info-item">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M17.5 8.33333C17.5 14.1667 10 19.1667 10 19.1667C10 19.1667 2.5 14.1667 2.5 8.33333C2.5 6.34421 3.29018 4.43655 4.6967 3.03003C6.10322 1.62351 8.01088 0.833333 10 0.833333C11.9891 0.833333 13.8968 1.62351 15.3033 3.03003C16.7098 4.43655 17.5 6.34421 17.5 8.33333Z"
+                        stroke="#5D6066" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                     <path
+                        d="M10 10.8333C11.3807 10.8333 12.5 9.71405 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71405 8.61929 10.8333 10 10.8333Z"
+                        stroke="#5D6066" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <p class="footer__text text-big">Москва, ул. Камушкина 10</p>
+               </div>
+            </div>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <a href="cabinet.html" class="footer__text text-big bold">Личный кабинет</a>
+               </li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="orders.html" class="footer__text text-big bold">Заказы</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Избранное</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="cart.html" class="footer__text text-big bold">Корзина</a></li>
+            </ul>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Каталог</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="items.html" class="footer__text text-big bold">Акции</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="brands.html" class="footer__text text-big bold">Бренды</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Контакты</a>
+               </li>
+            </ul>
+            <ul class="footer__list">
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Стать
+                     продавцом</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="#" class="footer__text text-big bold">Доставка</a>
+               </li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="return.html" class="footer__text text-big bold">Возврат</a></li>
+               <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 8H12.6667" stroke="#2F323A" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M6.8335 2.16675L12.6668 8.00008L6.8335 13.8334" stroke="#2F323A" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg><a href="documentation.html" class="footer__text text-big bold">Документация</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__footer">
+            <p class="footer__text text-big bold">© СтройкаСтор</p>
+            <div class="footer__items">
+               <img src="img/visa.png" alt="">
+               <img src="img/mastercard.png" alt="">
+               <img src="img/mastercard.png" alt="">
+               <img src="img/mup.png" alt="">
+            </div>
+            <p class="footer__text text-big bold">Cделано в KRUGLOV STUDIO</p>
+         </div>
+      </div>
+   </div>
+</footer>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
